@@ -1,0 +1,70 @@
+{
+  "name": "@leveloneproject/dfsp-transfer",
+  "version": "0.20.24",
+  "description": "DFSP Transfer service",
+  "main": "index.js",
+  "scripts": {
+    "changelog": "ut-changelog",
+    "check": "ut-check",
+    "circleci:build": "ut-circleci-build",
+    "circleci:cover": "ut-circleci-cover",
+    "circleci:tag": "ut-circleci-tag",
+    "circleci:push": "ut-circleci-push",
+    "circleci:test": "ut-circleci-test",
+    "cover": "ut-cover",
+    "gitlab": "ut-gitlab",
+    "jenkins": "ut-jenkins",
+    "lint": "ut-lint .",
+    "lint-js": "ut-lint-js .",
+    "pm2": "pm2 start pm2.json",
+    "pm2-show": "pm2 show",
+    "pm2-stop": "pm2 stop pm2.json",
+    "postpublish": "ut-postpublish",
+    "postversion": "ut-postversion",
+    "precommit": "ut-precommit",
+    "prepublish": "ut-prepublish",
+    "prepush": "ut-prepush",
+    "pretest": "ut-pretest",
+    "preversion": "ut-preversion",
+    "release": "ut-release",
+    "start": "node .",
+    "test": "ut-test",
+    "version": "ut-version"
+  },
+  "dependencies": {
+    "joi": "9.1.1",
+    "pm2": "2.0.18",
+    "ut-bus": "^5.12.1",
+    "ut-cache": "^5.5.3",
+    "ut-error": "^5.4.2",
+    "ut-log-dfsp": "^5.0.1",
+    "ut-port-console": "~6.2.13",
+    "ut-port-http": "^6.4.1",
+    "ut-port-httpserver": "~8.11.4",
+    "ut-port-jsonrpc": "^5.6.4",
+    "ut-port-performance": "^5.4.7",
+    "ut-port-postgres": "^5.7.7",
+    "ut-port-script": "^5.5.1",
+    "ut-run": "^8.1.0",
+    "ws": "1.1.1"
+  },
+  "devDependencies": {
+    "blue-tape": "1.0.0",
+    "supertest": "^3.0.0",
+    "tap-xunit": "1.4.0",
+    "ut-tools": "^5.17.19"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:LevelOneProject/dfsp-transfer.git"
+  },
+  "engines": {
+    "node": ">=4.4.7",
+    "npm": ">=3.10.6"
+  },
+  "publishConfig": {
+    "registry": "https://modusbox.jfrog.io/modusbox/api/npm/level1-npm-release"
+  },
+  "author": "Stamen Peev <stamen.peev@softwaregroup-bg.com>",
+  "license": "CC-BY-SA-4.0"
+}
