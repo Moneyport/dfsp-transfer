@@ -1,5 +1,5 @@
 {
-  "name": "@leveloneproject/dfsp-transfer",
+  "name": "@mojaloop/dfsp-transfer",
   "version": "0.20.24",
   "description": "DFSP Transfer service",
   "main": "index.js",
@@ -56,7 +56,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git@github.com:LevelOneProject/dfsp-transfer.git"
+    "url": "git@github.com:mojaloop/dfsp-transfer.git"
   },
   "engines": {
     "node": ">=4.4.7",
