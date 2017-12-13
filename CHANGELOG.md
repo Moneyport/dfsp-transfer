@@ -1,3 +1,13 @@
+<a name="0.20.25"></a>
+## [0.20.25](https://github.com/softwaregroup-bg/@mojaloop/dfsp-transfer/compare/v0.20.24...v0.20.25) (2017-12-07)
+
+
+### Bug Fixes
+
+* move to mojaloop ([573b49d](https://github.com/softwaregroup-bg/@mojaloop/dfsp-transfer/commit/573b49d))
+
+
+
 <a name="0.20.24"></a>
 ## [0.20.24](https://github.com/softwaregroup-bg/@leveloneproject/dfsp-transfer/compare/v0.20.23...v0.20.24) (2017-10-13)
 
