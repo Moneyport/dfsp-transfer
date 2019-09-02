@@ -1,6 +1,11 @@
-# Transfer service API
+# [DEPRECATED] Transfer service API
 
------
+## Deprecation Notice
+
+The Transfer service API was deprecated as of January 2018. This service is no longer maintained, and is no longer referenced by any releases of Mojaloop.
+
+For a list of active Mojaloop repos, please refer to [Repo Details](https://mojaloop.io/documentation/repositories/) section of the Mojaloop documentation.
+
 
 This service contains information about transfers, invoices and invoice notifications. It is used to hold the following data: 
  - Invoices when they are created by merchants;
